@@ -25,7 +25,7 @@ const programs = [
     image: "/images/sagetalk-logo.png",
     badge: "Học 1 kèm 1",
     description:
-      "Rèn luyện tiếng Anh thuyết trình & đàm phán để bạn thuyết phục, truyền cảm hứng và bứt phá trong môi trường quốc tế.",
+      "Rèn luyện tiếng Anh thuyết trình & đàm phán để thuyết phục, truyền cảm hứng và bứt phá trong môi trường quốc tế.",
     link: "https://sagetalk.honglinheducation.vn/",
   },
   {
@@ -58,7 +58,7 @@ export default function ProgramsSection() {
             Chương trình online 1 kèm 1 phù hợp với mục tiêu của bạn
           </h2>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Thành quả nghiên cứu và phát triển của chúng tôi trong suốt 11 năm qua
+            Thành quả nghiên cứu và phát triển của chúng tôi trong suốt 5 năm qua
           </p>
         </div>
 

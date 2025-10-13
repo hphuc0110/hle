@@ -16,12 +16,14 @@ export default function BenefitsSection() {
         <div ref={mainRef} className="grid lg:grid-cols-2 gap-16 items-center mb-20">
           {/* Left Content */}
           <div
-            className={`transition-all duration-1000 ${mainIntersected ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
+            className={`transition-all duration-1000 ${
+              mainIntersected ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"
+            }`}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-[#cf0001] mb-6 text-balance">LÀM CHỦ TIẾNG ANH!</h2>
 
             <p
-              className={`text-lg text-gray-600 mb-8 leading-relaxed transition-all duration-1000`}
+              className={`text-lg text-gray-600 mb-8 leading-relaxed text-justify transition-all duration-1000`}
               style={{
                 transitionDelay: "200ms",
                 opacity: mainIntersected ? 1 : 0,
@@ -34,7 +36,7 @@ export default function BenefitsSection() {
             </p>
 
             <p
-              className={`text-lg text-gray-600 mb-8 leading-relaxed transition-all duration-1000`}
+              className={`text-lg text-gray-600 mb-8 leading-relaxed text-justify transition-all duration-1000`}
               style={{
                 transitionDelay: "400ms",
                 opacity: mainIntersected ? 1 : 0,
@@ -97,7 +99,9 @@ export default function BenefitsSection() {
             <h2 className="text-3xl md:text-4xl font-bold text-[#cf0001] mb-6 text-balance">
               Tăng hiệu quả học tiếng Anh của bạn
             </h2>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">Gặp 5 lần hiệu quả mỗi giờ học</p>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed text-justify">
+              Gấp 5 lần hiệu quả mỗi giờ học
+            </p>
 
             <div className="space-y-6">
               {[
@@ -116,7 +120,11 @@ export default function BenefitsSection() {
                   text: "Luyện kỹ năng giao tiếp thực chiến trong bối cảnh công việc và đời sống hàng ngày",
                   delay: 600,
                 },
-                { icon: Clock, text: "Theo dõi tiến độ học tập và đánh giá kết quả một cách minh bạch", delay: 700 },
+                {
+                  icon: Clock,
+                  text: "Theo dõi tiến độ học tập và đánh giá kết quả minh bạch",
+                  delay: 700,
+                },
               ].map((item, index) => (
                 <div
                   key={index}
@@ -132,7 +140,7 @@ export default function BenefitsSection() {
                     <item.icon className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-gray-900 mb-2">{item.text}</h3>
+                    <h3 className="font-semibold text-lg text-gray-900 mb-2 text-justify">{item.text}</h3>
                   </div>
                 </div>
               ))}
@@ -152,9 +160,12 @@ export default function BenefitsSection() {
             }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-[#cf0001] mb-6 text-balance">
-              CHỈ HỌC NHỮNG THỨ BẠN CẦN HOẶC ÍT NHẤT BẠN THÍCH
+              CHỈ HỌC NHỮNG THỨ BẠN CẦN HOẶC 
             </h2>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#cf0001] mb-6 text-balance">
+              ÍT NHẤT BẠN THÍCH
+            </h2>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed text-justify">
               CÁ NHÂN HOÁ LỘ TRÌNH THEO TỪNG NGÀNH NGHỀ, MỤC TIÊU CỦA HỌC VIÊN
             </p>
 
@@ -162,7 +173,7 @@ export default function BenefitsSection() {
               {[
                 "Kiến thức chuẩn",
                 "Phù hợp từ cơ bản đến nâng cao",
-                "Chủ đề bám sát như câu sự dụng",
+                "Chủ đề bám sát như câu sử dụng",
                 "Dễ dàng tùy chỉnh theo tiến độ học",
               ].map((text, index) => (
                 <div
@@ -176,7 +187,7 @@ export default function BenefitsSection() {
                   }}
                 >
                   <Check className="h-5 w-5 text-[#cf0001] transition-transform duration-300 hover:scale-110" />
-                  <span className="text-gray-700">{text}</span>
+                  <span className="text-gray-700 text-justify">{text}</span>
                 </div>
               ))}
             </div>

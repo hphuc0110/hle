@@ -11,7 +11,7 @@ const experts = [
     specialization: "Business English & Leadership Training",
     experience: "15+ năm kinh nghiệm quốc tế",
     description:
-      "Chuyên gia hàng đầu trong lĩnh vực đào tạo tiếng Anh doanh nghiệp với kinh nghiệm làm việc tại các tập đoàn đa quốc gia.",
+      "Chuyên gia hàng đầu trong lĩnh vực đào tạo tiếng Anh với kinh nghiệm làm việc tại các tập đoàn đa quốc gia.",
     image: "/James.webp",
   },
   {
@@ -40,27 +40,26 @@ let teachers = [
     id: 1,
     name: "Nguyễn Thị Chung Anh",
     title: "Giáo viên",
-    specialization: "IELTS & Academic English",
+    specialization: "Thạc sĩ lãnh đạo toàn cầu",
     experience: "8+ năm kinh nghiệm",
-    description:
-      "Giáo viên trẻ tài năng với niềm đam mê truyền cảm hứng học tiếng Anh, chuyên về IELTS và tiếng Anh học thuật.",
-    image: "/chung-anh.webp",
+    description:` • Hơn 8 năm kinh nghiệm giảng dạy đa cấp dạy tiếng Anh chuyên sâu cho người đi làm và các cấp quản lý, chuyên đào đạo cho các chuyên gia đa ngành: Bác sĩ, Kỹ sư, IT, Nhân sự, Marketing, Tài chính,…`,
+    image: "/chung-anh.jpg",
   },
   {
     id: 2,
     name: "Nguyễn Thu Hằng",
     title: "Giáo viên",
-    specialization: "IELTS & Multi-level Teaching",
+    specialization: "Thành viên Lãnh đạo trẻ Châu Á",
     experience: "7+ năm kinh nghiệm",
     description:
       "Hơn 7 năm kinh nghiệm giảng dạy tiếng Anh đa cấp độ (IELTS, Cambridge). Đào tạo hơn 70 giáo viên tiếng Anh, hơn 500 người đi làm tại các ngành nghề.",
-    image: "/thu-hang.webp",
+    image: "/thu-hang.jpg",
   },
   {
     id: 3,
     name: "Cao Hoàng Hà Anh",
     title: "Giáo viên",
-    specialization: "IELTS & Academic English",
+    specialization: "Thạc sĩ Lý luận và Phương pháp giảng dạy tiếng Anh",
     experience: "5+ năm kinh nghiệm",
     description:
       "Hơn 5 năm giảng dạy IELTS, hơn 2 năm giảng dạy tiếng Anh học thuật cho học sinh Trung học và tiếng Anh chuyên ngành cho người đi làm.",
@@ -70,7 +69,7 @@ let teachers = [
     id: 4,
     name: "Nguyễn Quý Đạt",
     title: "Giáo viên",
-    specialization: "TOEIC & Business English",
+    specialization: "Trưởng phòng Đào tạo tại Saigon Business School",
     experience: "6+ năm kinh nghiệm",
     description:
       "Hơn 6 năm nghiên cứu giảng dạy TOEIC, hơn 4 năm kinh nghiệm giảng dạy tiếng Anh giao tiếp cho người đi làm.",
@@ -98,7 +97,7 @@ let teachers = [
     id: 7,
     name: "Phạm Kim Cương",
     title: "Giáo viên",
-    specialization: "Conversation & Pronunciation",
+    specialization: "Thạc sĩ  Tiếng Anh chuyên ngành Kinh tế – Ngân hàng",
     experience: "8+ năm kinh nghiệm",
     description: "Giáo viên giàu kinh nghiệm trong lĩnh vực tiếng Anh thương mại và kỹ năng viết, từng làm việc tại các công ty quốc tế.",
     image: "/kim-cuong.jpg",
@@ -108,7 +107,7 @@ let teachers = [
     name: "Phùng Yến Linh",
     title: "Giáo viên",
     specialization: "Conversation & Pronunciation",
-    experience: "4+ năm kinh nghiệm",
+    experience: "3+ năm kinh nghiệm",
     description: "Chuyên gia về giao tiếp và phát âm, giúp học viên tự tin trong mọi tình huống giao tiếp tiếng Anh.",
     image: "/yen-linh.webp",
   },
@@ -117,7 +116,7 @@ let teachers = [
     name: "Vũ Thị Khánh Vi",
     title: "Giáo viên",
     specialization: "Business English & Writing",
-    experience: "6+ năm kinh nghiệm",
+    experience: "4+ năm kinh nghiệm",
     description:
       "Giáo viên giàu kinh nghiệm trong lĩnh vực tiếng Anh thương mại và kỹ năng viết, từng làm việc tại các công ty quốc tế.",
     image: "Vi.webp",
@@ -158,10 +157,10 @@ export default function ExpertTeamSection() {
     <section id="instructors" className="py-20 bg-gradient-to-b from-gray-50 to-white relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#cd0000] mb-4">Đội ngũ giảng viên & chuyên gia</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-[#cd0000] mb-4">Đội ngũ giảng viên & chuyên gia</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Đội ngũ giảng viên & chuyên gia HLE với nhiều năm kinh nghiệm giảng dạy, kết hợp phương pháp học tập thực
-            dụng và cá nhân hóa 1-1, giúp học viên tháo gỡ những khó khăn của riêng mình và tiến bộ rõ rệt trong quá
+            dụng và cá nhân hóa 1-1, giúp học viên tháo gỡ khó khăn của riêng mình và tiến bộ rõ rệt trong quá
             trình học.
           </p>
         </div>

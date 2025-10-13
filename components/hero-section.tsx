@@ -72,7 +72,7 @@ export default function HeroSection() {
                 border: "1px solid rgba(255, 255, 255, 0.2)",
               }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-balance">
+              <h2 className="text-3xl md:text-3xl font-bold mb-6 text-balance">
                 <span style={{ color: "#dc2626" }}>Hệ sinh thái đào tạo tiếng Anh</span>
                 <br />
                 <span style={{ color: "#374151" }}>ứng dụng cho cá nhân và doanh nghiệp </span>
@@ -89,10 +89,10 @@ export default function HeroSection() {
                     boxShadow: "0 4px 15px rgba(245, 158, 11, 0.3)",
                   }}
                 >
-                  Thực chiến – Cá nhân hóa – Minh bạch kết quả – Tôn trọng cam kết
+                  Thực chiến – Cá nhân hóa – Minh bạch – Cam kết
                 </div>
                 <div
-                  className={`px-8 py-4 rounded-full text-center font-bold text-lg transition-all duration-1000 delay-1200 hover:scale-105 ${
+                  className={`px-8 py-4 rounded-full text-center font-bold text-sm transition-all duration-1000 delay-1200 hover:scale-105 ${
                     hasIntersected ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"
                   }`}
                   style={{
@@ -104,7 +104,7 @@ export default function HeroSection() {
                   50+ GIẢNG VIÊN & CHUYÊN GIA
                 </div>
                 <div
-                  className={`px-8 py-4 rounded-full text-center font-bold text-lg transition-all duration-1000 delay-1400 hover:scale-105 ${
+                  className={`px-8 py-4 rounded-full text-center font-bold text-md transition-all duration-1000 delay-1400 hover:scale-105 ${
                     hasIntersected ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"
                   }`}
                   style={{
