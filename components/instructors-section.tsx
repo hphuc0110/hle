@@ -64,7 +64,7 @@ let teachers = [
     experience: "5+ năm kinh nghiệm",
     description:
       "Hơn 5 năm giảng dạy IELTS, hơn 2 năm giảng dạy tiếng Anh học thuật cho học sinh Trung học và tiếng Anh chuyên ngành cho người đi làm.",
-    image: "/cao-ha-anh.webp",
+    image: "/ha-anh.jpg",
   },
     {
     id: 4,
