@@ -43,7 +43,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6 text-gray-900">Giới thiệu về HLE</h1>
-            <p className="text-xl max-w-4xl mx-auto leading-relaxed text-gray-800">
+            <p className="text-xl max-w-4xl mx-auto text-justify leading-relaxed text-gray-800">
               <strong className="text-white-900">Hồng Lĩnh Education (HLE)</strong> - Hệ sinh thái đào tạo tiếng Anh
               ứng dụng cho cá nhân và doanh nghiệp – được xây dựng với tâm huyết mở khóa cơ hội học tập và nghề nghiệp
               cho người Việt bằng năng lực giao tiếp tiếng Anh thực chiến.

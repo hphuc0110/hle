@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 
 const programs = [
@@ -77,7 +79,7 @@ export default function ProgramsSection() {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-white text-[#cf0001] px-3 py-1 rounded-full text-sm font-semibold shadow-md">
+                  <span className="bg-white text-[#cf0001] px-3 py-1 rounded-full text-xs font-semibold shadow-md">
                     {program.badge}
                   </span>
                 </div>
@@ -85,9 +87,14 @@ export default function ProgramsSection() {
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-[#cf0001] mb-3 text-balance">{program.title}</h3>
+                {/* ↓ Chữ title nhỏ nhất */}
+                <h3 className="text-xs font-semibold text-[#cf0001] mb-3 text-balance uppercase tracking-wide">
+                  {program.title}
+                </h3>
 
-                <p className="text-gray-600 mb-4 leading-relaxed">{program.description}</p>
+                <p className="text-gray-600 mb-4 leading-relaxed text-sm text-justify">
+                  {program.description}
+                </p>
 
                 {/* Button with link */}
                 <a href={program.link} target="_blank" rel="noopener noreferrer">

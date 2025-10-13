@@ -70,10 +70,9 @@ export default function ContactPage() {
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
-                    <p className="text-lg font-medium leading-relaxed">
-                      1G Trần Quang Diệu,
-                      Ô Chợ Dừa, Đống Đa, Hà Nội
-                    </p>
+                   <p className="text-sm font-medium leading-relaxed">
+                       1G Trần Quang Diệu,Ô Chợ Dừa,Đống Đa,Hà Nội
+                   </p>
                   </div>
                 </div>
               </div>

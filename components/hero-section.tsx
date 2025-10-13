@@ -72,7 +72,7 @@ export default function HeroSection() {
                 border: "1px solid rgba(255, 255, 255, 0.2)",
               }}
             >
-              <h2 className="text-3xl md:text-3xl font-bold mb-6 text-balance">
+              <h2 className="text-2xl md:text-3xl font-bold mb-6 text-balance">
                 <span style={{ color: "#dc2626" }}>Hệ sinh thái đào tạo tiếng Anh</span>
                 <br />
                 <span style={{ color: "#374151" }}>ứng dụng cho cá nhân và doanh nghiệp </span>

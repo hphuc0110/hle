@@ -52,8 +52,8 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-[#cf0001] mt-1" />
                 <div>
-                  <p className="font-semibold text-gray-900">Địa chỉ:</p>
-                  <p className="text-gray-700">1G Trần Quang Diệu, Ô Chợ Dừa, Đống Đa, Hà Nội</p>
+                  <p className="font-medium text-xs text-gray-900">Địa chỉ:</p>
+                  <p className="text-gray-700 text-xs">1G Trần Quang Diệu, Ô Chợ Dừa, Đống Đa, Hà Nội</p>
                 </div>
               </div>
             </div>

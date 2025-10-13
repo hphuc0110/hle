@@ -40,7 +40,7 @@ let teachers = [
     id: 1,
     name: "Nguyễn Thị Chung Anh",
     title: "Giáo viên",
-    specialization: "Thạc sĩ lãnh đạo toàn cầu",
+    specialization: "Thạc sĩ Lãnh đạo toàn cầu",
     experience: "8+ năm kinh nghiệm",
     description:` • Hơn 8 năm kinh nghiệm giảng dạy đa cấp dạy tiếng Anh chuyên sâu cho người đi làm và các cấp quản lý, chuyên đào đạo cho các chuyên gia đa ngành: Bác sĩ, Kỹ sư, IT, Nhân sự, Marketing, Tài chính,…`,
     image: "/chung-anh.jpg",
@@ -157,8 +157,8 @@ export default function ExpertTeamSection() {
     <section id="instructors" className="py-20 bg-gradient-to-b from-gray-50 to-white relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-4xl font-bold text-[#cd0000] mb-4">Đội ngũ giảng viên & chuyên gia</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-1xl md:text-4xl font-bold text-[#cd0000] mb-4">Đội ngũ Giảng viên & Chuyên gia</h2>
+          <p className="text-sm text-gray-600 text-justify max-w-3xl mx-auto">
             Đội ngũ giảng viên & chuyên gia HLE với nhiều năm kinh nghiệm giảng dạy, kết hợp phương pháp học tập thực
             dụng và cá nhân hóa 1-1, giúp học viên tháo gỡ khó khăn của riêng mình và tiến bộ rõ rệt trong quá
             trình học.
@@ -170,7 +170,7 @@ export default function ExpertTeamSection() {
           <div className="bg-white rounded-2xl p-6 md:p-12 shadow-2xl">
             <div className="text-center mb-12">
               <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">
-                Đội ngũ <span className="text-[#cd0000]">chuyên gia</span>
+                Đội ngũ <span className="text-[#cd0000]">Chuyên gia</span>
               </h3>
             </div>
             <div className="relative">
@@ -201,7 +201,7 @@ export default function ExpertTeamSection() {
               <div className="flex items-center justify-center mt-4 md:hidden">
                 <div className="flex items-center gap-2 bg-red-50 px-4 py-2 rounded-full text-sm text-gray-600">
                   <Swipe className="w-4 h-4" />
-                  <span>Lướt ngang để xem thêm chuyên gia</span>
+                  <span>Lướt ngang để xem thêm Chuyên gia</span>
                 </div>
               </div>
             </div>
