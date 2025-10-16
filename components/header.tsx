@@ -70,23 +70,20 @@ export default function Header() {
       onMouseEnter={handleMouseEnterPrograms}
       onMouseLeave={handleMouseLeavePrograms}
     >
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-6 text-sm">
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-6 text-xs">
         <div>
-          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">NGƯỜI HỌC CẦN BIẾT</h3>
+          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">NGƯỜI HỌC <br/> CẦN BIẾT</h3>
           <div className="bg-gray-50 rounded-lg p-3 space-y-2">
-            <button
-              onClick={scrollToTestimonials}
-              className="block text-left w-full text-gray-700 hover:text-[#3464c5]"
-            >
-              Phản hồi từ học viên
-            </button>
             <a href="/faq" className="block text-gray-700 hover:text-[#3464c5]">
-              Câu hỏi thường gặp
+              Câu hỏi <br/> thường gặp
             </a>
           </div>
         </div>
         <div>
-          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh Chuyên Nghiệp</h3>
+        <h3 className="font-bold mb-3 text-gray-700 border-b pb-2 text-xs">
+  Tiếng Anh <br/> Chuyên Nghiệp
+</h3>
+
           <a
             href="https://realtalk.honglinheducation.vn/"
             target="_blank"
@@ -97,7 +94,7 @@ export default function Header() {
           </a>
         </div>
         <div>
-          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh Phỏng Vấn</h3>
+          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh <br/> Phỏng Vấn</h3>
           <a
             href="https://gotalk.honglinheducation.vn/"
             target="_blank"
@@ -108,7 +105,7 @@ export default function Header() {
           </a>
         </div>
         <div>
-          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh Pitching</h3>
+          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh <br/> Thuyết Trình</h3>
           <a
             href="https://sagetalk.honglinheducation.vn/"
             target="_blank"
@@ -119,7 +116,7 @@ export default function Header() {
           </a>
         </div>
           <div>
-          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh Kinh Doanh</h3>
+          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh <br/>Sales & Pitching </h3>
           <a
             href="https://dealtalk.honglinheducation.vn/"
             target="_blank"
@@ -130,14 +127,14 @@ export default function Header() {
           </a>
         </div>
         <div>
-          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh Storytelling</h3>
+          <h3 className="font-bold mb-3 text-gray-700 border-b pb-2">Tiếng Anh <br/> Storytelling</h3>
           <a
             href="https://fableenglish.honglinheducation.vn/"
             target="_blank"
             rel="noopener noreferrer"
             className="block hover:text-[#3464c5]"
           >
-            FABLEENGLISH
+            FABLE ENGLISH
           </a>
         </div>
       </div>
@@ -155,9 +152,6 @@ export default function Header() {
           <h3 className="font-bold mb-3 border-b pb-2 text-gray-800">VỀ HLE</h3>
           <a href="/about" className="block hover:text-[#cf0001]">
             Giới thiệu
-          </a>
-          <a href="/events" className="block hover:text-[#cf0001]">
-            Sự kiện nổi bật
           </a>
         </div>
         <div>
@@ -297,15 +291,6 @@ export default function Header() {
             </button>
             {showProgramsMobile && (
               <div className="pl-6 pr-3 pb-2 space-y-2 text-gray-700 text-sm">
-                <button
-                  onClick={() => {
-                    scrollToTestimonials()
-                    setIsMenuOpen(false)
-                  }}
-                  className="block text-left hover:text-[#cf0001] w-full"
-                >
-                  Phản hồi từ học viên
-                </button>
                 <Link href="/faq" className="block hover:text-[#cf0001]">
                   Câu hỏi thường gặp
                 </Link>
@@ -317,6 +302,12 @@ export default function Header() {
                 </a>
                 <a href="https://sagetalk.honglinheducation.vn/" target="_blank" className="block hover:text-[#cf0001]">
                   SAGETALK
+                </a>
+                <a href="https://dealtalk.honglinheducation.vn/" target="_blank" className="block hover:text-[#cf0001]">
+                  DEALTALK
+                </a>
+                <a href="https://fableenglish.honglinheducation.vn/" target="_blank" className="block hover:text-[#cf0001]">
+                  FABLE ENGLISH
                 </a>
               </div>
             )}

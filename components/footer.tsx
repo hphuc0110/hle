@@ -68,30 +68,6 @@ export default function Footer() {
               >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#cf0001] p-3 rounded-full text-white hover:bg-[#b50001] transition-colors"
-              >
-                <MessageCircle className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#cf0001] p-3 rounded-full text-white hover:bg-[#b50001] transition-colors"
-              >
-                <Youtube className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#cf0001] p-3 rounded-full text-white hover:bg-[#b50001] transition-colors"
-              >
-                <MessageCircle className="h-5 w-5" />
-              </a>
             </div>
           </div>
 
@@ -201,7 +177,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-[#cf0001] hover:underline"
                 >
-                  • FABLEENGLISH
+                  • FABLE ENGLISH
                 </a>
               </div>
             </div>

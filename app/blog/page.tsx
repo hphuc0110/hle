@@ -37,6 +37,50 @@ const blogPosts = [
     date: "10/12/2024",
     readTime: "8 phút đọc",
   },
+  {
+    id: 4,
+    slug: "khong-the-chi-dung-o-giao-tiep",
+    title: "Tiếng Anh trong thời hội nhập không thể chỉ dừng lại ở giao tiếp",
+    excerpt:
+      "Trong thời hội nhập, Tiếng Anh không chỉ để giao tiếp – mà là công cụ khẳng định năng lực và mở rộng cơ hội toàn cầu.",
+    image: "",
+    category: "Công nghệ",
+    date: "10/09/2025",
+    readTime: "8 phút đọc",
+  },
+  {
+    id: 5,
+    slug: "lo-trinh-5-buoi",
+    title: "Hồng Lĩnh Education ra mắt sản phẩm GoTalk với lộ trình 5 buổi “Tiếng Anh Phỏng Vấn” – Đồng hành cùng nhân lực Việt trên hành trình hội nhập quốc tế",
+    excerpt:
+      "Tự tin nói tiếng Anh trong mọi buổi phỏng vấn với GoTalk – sản phẩm mới từ Hồng Lĩnh Education, đồng hành cùng bạn trên hành trình quốc tế.",
+    image: "",
+    category: "Khóa học",
+    date: "10/10/2025",
+    readTime: "6 phút đọc",
+  },
+  {
+    id: 6,
+    slug: "thuc-day-hoi-nhap-quoc-te",
+    title: "Hồng Lĩnh Education (HLE) thúc đẩy hội nhập quốc tế cho người lao động Việt khi cho ra mắt sản phẩm Tiếng Anh Phỏng Vấn",
+    excerpt:
+      "HLE mang đến giải pháp học Tiếng Anh thực chiến cho người lao động Việt – sẵn sàng phỏng vấn và làm việc trong môi trường quốc tế.",
+    image: "",
+    category: "Kĩ năng",
+    date: "10/10/2025",
+    readTime: "7 phút đọc",
+  },
+  {
+    id: 7,
+    slug: "giai-phap-non-homework",
+    title: "HLE ra mắt lột trình học mới cho sản phẩm của RealTalk – Giải pháp tiếng Anh “Non-Homework” cho người đi làm bận rộn",
+    excerpt:
+      "HLE mang đến lộ trình RealTalk mới – học tiếng Anh không bài tập, không áp lực, vẫn tiến bộ mỗi ngày.",
+    image: "",
+    category: "Khóa học",
+    date: "19/09/2025",
+    readTime: "7 phút đọc",
+  },
 ]
 
 export default function BlogPage() {
@@ -48,7 +92,7 @@ export default function BlogPage() {
       <section className="bg-gradient-to-r from-[#cf0001] to-[#8b0000] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 text-balance">Blog HLE</h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto text-pretty">
+          <p className="text-lg text-white/90 max-w-3xl mx-auto text-pretty">
             Khám phá những bài viết chuyên sâu về tiếng Anh, kỹ năng mềm và cơ hội nghề nghiệp
           </p>
         </div>

@@ -12,12 +12,7 @@ const faqData = [
     answer:
       "HLE cung cấp các chương trình đào tạo tiếng Anh đa dạng bao gồm: Tiếng Anh Doanh Nhân, IELTS Power, GoTalk Kids, và các chương trình đào tạo theo nhu cầu doanh nghiệp.",
   },
-  {
-    id: 2,
-    question: "Làm thế nào để đăng ký học tại HLE?",
-    answer:
-      "Bạn có thể đăng ký học bằng cách: 1) Gọi hotline 028 6272 1488, 2) Gửi email đến info@gotalk.vn, 3) Đến trực tiếp văn phòng tại số 53, đường B4, KĐT Sala, P. An Khánh, TP. Hồ Chí Minh, hoặc 4) Điền form đăng ký trên website.",
-  },
+
   {
     id: 3,
     question: "HLE có hỗ trợ học online không?",
@@ -105,14 +100,12 @@ export default function FAQPage() {
 
           {/* Contact Section */}
           <div className="mt-16 text-center bg-gray-50 rounded-lg p-8">
-            <h3 className="text-2xl font-bold text-[#cf0001] mb-4">Không tìm thấy câu trả lời?</h3>
-            <p className="text-gray-700 mb-6">Liên hệ với chúng tôi để được tư vấn chi tiết hơn</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:0286272148"
+                href="tel:0325 194 889"
                 className="bg-[#cf0001] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#b50001] transition-colors"
               >
-                Gọi ngay: 028 6272 1488
+                Gọi ngay: 0325 194 889
               </a>
               <a
                 href="mailto:info@gotalk.vn"

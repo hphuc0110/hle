@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 const programs = [
   {
     id: 1,
-    title: "Chương trình RealTalk - Tiếng Anh Chuyên Nghiệp",
+    title: "RealTalk - Tiếng Anh Chuyên Nghiệp",
     image: "/images/realtalk-logo.png",
     badge: "Học 1 kèm 1",
     description:
@@ -14,7 +14,7 @@ const programs = [
   },
   {
     id: 2,
-    title: "Chương trình GoTalk - Tiếng Anh Phỏng Vấn",
+    title: "GoTalk - Tiếng Anh Phỏng Vấn",
     image: "/images/gotalk-logo.webp",
     badge: "Học 1 kèm 1",
     description:
@@ -23,7 +23,7 @@ const programs = [
   },
   {
     id: 3,
-    title: "Chương trình SageTalk – Tiếng Anh Pitching",
+    title: "SageTalk – Tiếng Anh thuyết trình học thuật",
     image: "/images/sagetalk-logo.png",
     badge: "Học 1 kèm 1",
     description:
@@ -32,20 +32,20 @@ const programs = [
   },
   {
     id: 4,
-    title: "Chương trình DealTalk - English for Sale & Pitching ",
+    title: "DealTalk - English for Sale & Pitching ",
     image: "/dealtalk-logo.png",
     badge: "Học 1 kèm 1",
     description:
-      "Chương trình huấn luyện ngôn ngữ và tư duy giao tiếp trong kinh doanh, giúp bạn tự tin chào hàng, xử lý từ chối, đàm phán, chốt đơn và xây dựng mạng lưới quan hệ hiệu quả.",
+      "Huấn luyện ngôn ngữ và tư duy giao tiếp trong kinh doanh, giúp tự tin trình bày, xử lý từ chối khéo léo, đàm phán hiệu quả, chốt đơn thuyết phục và xây dựng mối quan hệ bền vững.",
     link: "https://dealtalk.honglinheducation.vn/",
   },
   {
     id: 5,
-    title: "Chương trình FableEnglish - Tiếng Anh Storytelling",
+    title: "Fable English - Tiếng Anh Storytelling",
     image: "/fable-logo.png",
     badge: "Học 1 kèm 1",
     description:
-      "Khóa huấn luyện nghệ thuật kể chuyện trong công việc và thuyết trình, giúp bạn biến dữ liệu khô khan và trải nghiệm cá nhân thành những câu chuyện giàu cảm xúc, có sức nặng và thuyết phục. ",
+      "Huấn luyện nghệ thuật kể chuyện trong công việc và thuyết trình, biến dữ liệu khô khan và trải nghiệm cá nhân thành câu chuyện giàu cảm xúc, có sức nặng và thuyết phục. ",
     link: "https://fableenglish.honglinheducation.vn/",
   },
 ]

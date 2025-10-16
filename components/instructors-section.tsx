@@ -72,7 +72,7 @@ let teachers = [
     specialization: "Trưởng phòng Đào tạo tại Saigon Business School",
     experience: "6+ năm kinh nghiệm",
     description:
-      "Hơn 6 năm nghiên cứu giảng dạy TOEIC, hơn 4 năm kinh nghiệm giảng dạy tiếng Anh giao tiếp cho người đi làm.",
+      "Hơn 6 năm nghiên cứu giảng dạy TOEIC, 4 năm kinh nghiệm giảng dạy tiếng Anh giao tiếp cho người đi làm.",
     image: "/quy-dat.jpg",
   },
   // {
@@ -99,7 +99,7 @@ let teachers = [
     title: "Giáo viên",
     specialization: "Thạc sĩ  Tiếng Anh chuyên ngành Kinh tế – Ngân hàng",
     experience: "8+ năm kinh nghiệm",
-    description: "Giáo viên giàu kinh nghiệm trong lĩnh vực tiếng Anh thương mại và kỹ năng viết, từng làm việc tại các công ty quốc tế.",
+    description: "Giáo viên kinh nghiệm trong lĩnh vực tiếng Anh thương mại và kỹ năng viết, từng làm việc tại các công ty quốc tế.",
     image: "/kim-cuong.jpg",
   },
   {
@@ -118,7 +118,7 @@ let teachers = [
     specialization: "Business English & Writing",
     experience: "4+ năm kinh nghiệm",
     description:
-      "Giáo viên giàu kinh nghiệm trong lĩnh vực tiếng Anh thương mại và kỹ năng viết, từng làm việc tại các công ty quốc tế.",
+      "Giáo viên giàu kinh nghiệm trong lĩnh vực tiếng Anh thương mại và kỹ năng viết, từng làm việc tại công ty quốc tế.",
     image: "Vi.webp",
   },
   {
@@ -129,6 +129,15 @@ let teachers = [
     experience: "3+ năm kinh nghiệm",
     description: "Giáo viên trẻ năng động với khả năng truyền cảm hứng học tập cho mọi lứa tuổi, đặc biệt là trẻ em.",
     image: "/binh-duong.webp",
+  },
+  {
+    id: 11,
+    name: "Lê Phương Quyên",
+    title: "Giáo viên",
+    specialization: "Speaking & Pronunciation Coach",
+    experience: "3+ năm kinh nghiệm",
+    description: "Ứng dụng phương pháp thực hành liên tục, giúp học viên nói trôi chảy và tự tin.",
+    image: "/phuong-quyen.webp",
   },
 ]
 
@@ -159,7 +168,7 @@ export default function ExpertTeamSection() {
         <div className="text-center mb-16">
           <h2 className="text-1xl md:text-4xl font-bold text-[#cd0000] mb-4">Đội ngũ Giảng viên & Chuyên gia</h2>
           <p className="text-sm text-gray-600 text-justify max-w-3xl mx-auto">
-            Đội ngũ giảng viên & chuyên gia HLE với nhiều năm kinh nghiệm giảng dạy, kết hợp phương pháp học tập thực
+            Đội ngũ Giảng viên & Chuyên gia HLE với nhiều năm kinh nghiệm giảng dạy, kết hợp phương pháp học tập thực
             dụng và cá nhân hóa 1-1, giúp học viên tháo gỡ khó khăn của riêng mình và tiến bộ rõ rệt trong quá
             trình học.
           </p>
@@ -212,7 +221,7 @@ export default function ExpertTeamSection() {
         <div className="bg-white rounded-2xl p-6 md:p-12 shadow-2xl relative">
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">
-              Đội ngũ <span className="text-[#cd0000]">giáo viên</span>
+              Đội ngũ <span className="text-[#cd0000]">Giáo viên</span>
             </h3>
           </div>
 

@@ -71,7 +71,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                    <p className="text-sm font-medium leading-relaxed">
-                       1G Trần Quang Diệu,Ô Chợ Dừa,Đống Đa,Hà Nội
+                       1G Trần Quang Diệu, Ô Chợ Dừa, Đống Đa, Hà Nội
                    </p>
                   </div>
                 </div>
@@ -138,10 +138,12 @@ export default function ContactPage() {
                       <SelectValue placeholder="Chọn chương trình" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="tieng-anh-doanh-nhan">Tiếng Anh Doanh Nhân</SelectItem>
+                      <SelectItem value="tieng-anh-doanh-nhan">Tiếng Anh Storytelling </SelectItem>
                       <SelectItem value="tieng-anh-giao-tiep">Tiếng Anh Chuyên Nghiệp </SelectItem>
                       <SelectItem value="ielts">Tiếng Anh Phỏng Vấn</SelectItem>
-                      <SelectItem value="toeic">Tiếng Anh Pitching</SelectItem>
+                      <SelectItem value="toeic">Tiếng Anh Sales & Pitching</SelectItem>
+                      <SelectItem value="toeic">Tiếng Anh Thuyết Trình Học Thuật</SelectItem>
+                      <SelectItem value="tieng-anh-giao-tiep">Tiếng Anh Dịch Vụ Cao Cấp </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

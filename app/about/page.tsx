@@ -48,13 +48,12 @@ export default function AboutPage() {
               ứng dụng cho cá nhân và doanh nghiệp – được xây dựng với tâm huyết mở khóa cơ hội học tập và nghề nghiệp
               cho người Việt bằng năng lực giao tiếp tiếng Anh thực chiến.
             </p>
-            <p className="text-lg mt-6 max-w-4xl mx-auto leading-relaxed text-gray-800">
+            <p className="text-lg mt-6 max-w-4xl mx-auto text-justify leading-relaxed text-gray-800">
               Với sứ mệnh đồng hành cùng người học từ bước khởi đầu đến khi tự tin sử dụng tiếng Anh trong công việc
               và đời sống, <strong className="text-gray-900">HLE</strong> lấy giá trị cốt lõi{" "}
               <strong className="text-gray-900">"Thực dụng – Cá nhân hóa – Minh bạch – Tôn trọng cam kết"</strong> làm
               kim chỉ nam. Thông qua các chương trình đào tạo cá nhân hóa lộ trình, đo lường tiến bộ rõ ràng và tập
-              trung vào khả năng dùng được ngay, chúng tôi mang đến trải nghiệm học tập thiết thực, giúp học viên không
-              chỉ chinh phục mục tiêu tiếng Anh mà còn mở rộng cánh cửa sự nghiệp và hội nhập toàn cầu.
+              trung vào khả năng dùng được ngay, chúng tôi mang đến trải nghiệm học tập thiết thực, giúp học viên chinh phục mục tiêu tiếng Anh mà còn mở rộng cánh cửa sự nghiệp và hội nhập toàn cầu.
             </p>
           </div>
         </div>
