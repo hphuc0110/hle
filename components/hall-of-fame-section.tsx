@@ -14,7 +14,7 @@ const hallOfFame = [
     id: 2,
     name: "Nguyễn Hải Đăng",
     achievement:
-      "RealTalk đã giúp tôi biến ý tưởng 'không thể' thành hiện thực rực rỡ.",
+      "HLE đã giúp tôi biến ý tưởng 'không thể' thành hiện thực rực rỡ.",
     image: "/nguyen-hai-dang.png",
   },
   {

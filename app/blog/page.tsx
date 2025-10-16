@@ -2,6 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 
 const blogPosts = [
   {
@@ -21,7 +22,7 @@ const blogPosts = [
     title: "Tiếng Anh – Cánh cửa mở ra cơ hội cho thế hệ học sinh và người đi làm Việt Nam",
     excerpt:
       "Việc đưa tiếng Anh trở thành ngôn ngữ thứ hai trong nhà trường là một chiến lược quan trọng và cấp thiết trong bối cảnh hội nhập quốc tế.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/blog2.jpg-0LpZiA3ahbMeUI7q9nyUxKUBDIKWO0.jpeg",
+    image: "blog2.jpeg",
     category: "Giáo dục",
     date: "12/12/2024",
     readTime: "6 phút đọc",
@@ -32,7 +33,7 @@ const blogPosts = [
     title: "Sợi dây kết nối Việt Nam với các tập đoàn công nghệ toàn cầu",
     excerpt:
       "Vai trò then chốt của tiếng Anh chuyên ngành trong việc thu hút FDI công nghệ cao và tham gia chuỗi R&D toàn cầu.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/blog3.png-rzQEHUrn0GR0tUedpqSypcgRtayDed.jpeg",
+    image: "blog3.jpeg",
     category: "Công nghệ",
     date: "10/12/2024",
     readTime: "8 phút đọc",
@@ -43,7 +44,7 @@ const blogPosts = [
     title: "Tiếng Anh trong thời hội nhập không thể chỉ dừng lại ở giao tiếp",
     excerpt:
       "Trong thời hội nhập, Tiếng Anh không chỉ để giao tiếp – mà là công cụ khẳng định năng lực và mở rộng cơ hội toàn cầu.",
-    image: "",
+    image: "/bai-4.png",
     category: "Công nghệ",
     date: "10/09/2025",
     readTime: "8 phút đọc",
@@ -54,7 +55,7 @@ const blogPosts = [
     title: "Hồng Lĩnh Education ra mắt sản phẩm GoTalk với lộ trình 5 buổi “Tiếng Anh Phỏng Vấn” – Đồng hành cùng nhân lực Việt trên hành trình hội nhập quốc tế",
     excerpt:
       "Tự tin nói tiếng Anh trong mọi buổi phỏng vấn với GoTalk – sản phẩm mới từ Hồng Lĩnh Education, đồng hành cùng bạn trên hành trình quốc tế.",
-    image: "",
+    image: "/bai-5.png",
     category: "Khóa học",
     date: "10/10/2025",
     readTime: "6 phút đọc",
@@ -65,7 +66,7 @@ const blogPosts = [
     title: "Hồng Lĩnh Education (HLE) thúc đẩy hội nhập quốc tế cho người lao động Việt khi cho ra mắt sản phẩm Tiếng Anh Phỏng Vấn",
     excerpt:
       "HLE mang đến giải pháp học Tiếng Anh thực chiến cho người lao động Việt – sẵn sàng phỏng vấn và làm việc trong môi trường quốc tế.",
-    image: "",
+    image: "/bai-6.png",
     category: "Kĩ năng",
     date: "10/10/2025",
     readTime: "7 phút đọc",
@@ -73,10 +74,10 @@ const blogPosts = [
   {
     id: 7,
     slug: "giai-phap-non-homework",
-    title: "HLE ra mắt lột trình học mới cho sản phẩm của RealTalk – Giải pháp tiếng Anh “Non-Homework” cho người đi làm bận rộn",
+    title: "HLE ra mắt lộ trình học mới cho sản phẩm của RealTalk – Giải pháp tiếng Anh “Non-Homework” cho người đi làm bận rộn",
     excerpt:
       "HLE mang đến lộ trình RealTalk mới – học tiếng Anh không bài tập, không áp lực, vẫn tiến bộ mỗi ngày.",
-    image: "",
+    image: "/bai-7.png",
     category: "Khóa học",
     date: "19/09/2025",
     readTime: "7 phút đọc",
@@ -105,16 +106,20 @@ export default function BlogPage() {
             {blogPosts.map((post) => (
               <article
                 key={post.id}
-                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 flex flex-col"
               >
-                <div className="aspect-video relative overflow-hidden">
-                  <img
+                {/* Ảnh hiển thị hình vuông */}
+                <div className="relative w-full aspect-square overflow-hidden">
+                  <Image
                     src={post.image || "/placeholder.svg"}
                     alt={post.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 400px"
+                    className="object-cover object-center hover:scale-105 transition-transform duration-500"
                   />
                 </div>
-                <div className="p-6">
+
+                <div className="p-6 flex flex-col flex-1">
                   <div className="flex items-center justify-between mb-4">
                     <span className="inline-block bg-[#cf0001] text-white text-sm px-3 py-1 rounded-full">
                       {post.category}
@@ -123,10 +128,19 @@ export default function BlogPage() {
                       {post.date} • {post.readTime}
                     </div>
                   </div>
-                  <h2 className="font-bold text-xl text-gray-900 mb-3 line-clamp-2 text-balance">{post.title}</h2>
-                  <p className="text-gray-600 mb-4 line-clamp-3 text-pretty">{post.excerpt}</p>
+
+                  <h2 className="font-bold text-xl text-gray-900 mb-3 line-clamp-2 text-balance">
+                    {post.title}
+                  </h2>
+
+                  <p className="text-gray-600 mb-4 line-clamp-3 text-pretty flex-1">
+                    {post.excerpt}
+                  </p>
+
                   <Link href={`/blog/${post.slug}`}>
-                    <Button className="bg-[#cf0001] hover:bg-[#8b0000] text-white w-full">Đọc tiếp</Button>
+                    <Button className="bg-[#cf0001] hover:bg-[#8b0000] text-white w-full">
+                      Đọc tiếp
+                    </Button>
                   </Link>
                 </div>
               </article>
