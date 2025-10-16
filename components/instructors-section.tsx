@@ -119,7 +119,7 @@ let teachers = [
     experience: "4+ năm kinh nghiệm",
     description:
       "Giáo viên giàu kinh nghiệm trong lĩnh vực tiếng Anh thương mại và kỹ năng viết, từng làm việc tại công ty quốc tế.",
-    image: "Vi.webp",
+    image: "/Vi.webp",
   },
   {
     id: 10,
